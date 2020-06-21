@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RMI-Bypass290:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RMI_Bypass290_jar</output-path>
+    <root id="archive" name="RMI-Bypass290.jar">
+      <element id="module-output" name="RMI-Bypass290" />
+    </root>
+  </artifact>
+</component>

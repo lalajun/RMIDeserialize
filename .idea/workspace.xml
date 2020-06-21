@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RMI-Bypass290:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07022426-aa7f-4238-8036-3803f965c61a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YvaI6FjpFerIpa4Nh4LaseApBT" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/java/rmi/server/RemoteObjectInvocationHandler.class" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="two.files.diff.last.used.file" value="D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/java/rmi/server/RemoteObjectInvocationHandler.class" />
+    <property name="two.files.diff.last.used.folder" value="D:/Java/jdk1.8.0_211/jre/lib/rt.jar" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\靶机\java反序列化\RMIDeserialize\RMI-Bypass290\src\main\resources" />
+      <recent name="F:\靶机\java反序列化\RMIDeserialize\RMI-Server\src\main\java" />
+      <recent name="F:\靶机\java反序列化\RMIDeserialize\RMI-Client\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\靶机\java反序列化\RMIDeserialize\RMI-Bypass290\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="proxy" />
+      <recent name="enumeration" />
+      <recent name="payloads" />
+      <recent name="" />
+      <recent name="com.lala" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lala" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Bypass290">
+    <configuration name="Bypass290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lala.Bypass290" />
+      <module name="RMIClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bypass290_proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lala.Bypass290_proxy" />
+      <module name="RMIClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BypassJEP290_Lookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BypassJEP290_Lookup" />
+      <module name="RMI-Bypass290" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JRMPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lala.JRMPClient" />
+      <module name="RMIClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerAndRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lala.ServerAndRegister" />
+      <module name="RMIServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ServerAndRegister" />
+      <item itemvalue="Application.Bypass290" />
+      <item itemvalue="Application.BypassJEP290_Lookup" />
+      <item itemvalue="Application.JRMPClient" />
+      <item itemvalue="Application.Bypass290_proxy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerAndRegister" />
+        <item itemvalue="Application.Bypass290" />
+        <item itemvalue="Application.Bypass290_proxy" />
+        <item itemvalue="Application.JRMPClient" />
+        <item itemvalue="Application.BypassJEP290_Lookup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07022426-aa7f-4238-8036-3803f965c61a" name="Default Changelist" comment="" />
+      <created>1583825439017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583825439017</updated>
+      <workItem from="1583825442192" duration="21691000" />
+      <workItem from="1584083115594" duration="1838000" />
+      <workItem from="1584085282845" duration="3196000" />
+      <workItem from="1584090415404" duration="146000" />
+      <workItem from="1584090578642" duration="295000" />
+      <workItem from="1584090903171" duration="1593000" />
+      <workItem from="1584092522307" duration="440000" />
+      <workItem from="1584110964032" duration="729000" />
+      <workItem from="1584499936610" duration="13000" />
+      <workItem from="1584600107972" duration="4361000" />
+      <workItem from="1584712240582" duration="685000" />
+      <workItem from="1585216998395" duration="1217000" />
+      <workItem from="1585652481947" duration="1215000" />
+      <workItem from="1585654895725" duration="15881000" />
+      <workItem from="1586091863444" duration="2219000" />
+      <workItem from="1586250145837" duration="14947000" />
+      <workItem from="1586860026751" duration="3800000" />
+      <workItem from="1587000681438" duration="22530000" />
+      <workItem from="1588229186667" duration="2823000" />
+      <workItem from="1588774262432" duration="4223000" />
+      <workItem from="1588906758128" duration="35288000" />
+      <workItem from="1589558960376" duration="2407000" />
+      <workItem from="1590113322550" duration="7685000" />
+      <workItem from="1590467698282" duration="6671000" />
+      <workItem from="1590634052682" duration="111000" />
+      <workItem from="1590997177609" duration="47401000" />
+      <workItem from="1591586192888" duration="15007000" />
+      <workItem from="1592181956016" duration="10730000" />
+      <workItem from="1592282760548" duration="54000" />
+      <workItem from="1592282859092" duration="35078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Client.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Server/src/main/java/com/lala/ServerAndRegister.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>119</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>150</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>162</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>137</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>48</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Stub.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>31</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Stub.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class</url>
+          <line>78</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>34</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Stub.class</url>
+          <line>41</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>127</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>39</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>30</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>52</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Client.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastRef.class</url>
+          <line>166</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/src.zip!/java/rmi/server/RemoteObjectInvocationHandler.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>123</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/server/UnicastRef.class</url>
+          <line>187</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/src.zip!/java/net/URLStreamHandler.java</url>
+          <line>348</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class</url>
+          <line>84</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
+          <line>77</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
+          <line>341</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class</url>
+          <line>262</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>1802</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/transport/DGCImpl_Skel.class</url>
+          <line>36</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/transport/DGCImpl.class</url>
+          <line>236</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/transport/DGCImpl.class</url>
+          <line>211</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/DGCImpl.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/rmi/transport/DGCImpl_Stub.class</url>
+          <line>72</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/rmi/transport/DGCImpl_Stub.class</url>
+          <line>61</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Server/src/main/java/com/lala/ServerAndRegister.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/server/UnicastRef.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Server/src/main/java/com/lala/ServerAndRegister.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/StreamRemoteCall.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/StreamRemoteCall.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/StreamRemoteCall.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/org/apache/commons/collections/functors/InvokerTransformer.class</url>
+          <line>59</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>777</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/server/UnicastServerRef.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/Transport.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>776</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>721</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>720</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>748</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>549</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/tcp/TCPTransport.java</url>
+          <line>563</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/server/UnicastServerRef.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/server/UnicastRef.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/LiveRef.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class</url>
+          <line>159</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class</url>
+          <line>289</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Bypass290_proxy.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Bypass290.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Bypass290.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/src.zip!/java/rmi/server/RemoteObject.java</url>
+          <line>362</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/src.zip!/java/rmi/server/UnicastRemoteObject.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/src.zip!/java/io/ObjectOutputStream.java</url>
+          <line>1143</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_111/src.zip!/java/io/ObjectOutputStream.java</url>
+          <line>1107</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class</url>
+          <line>144</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>81</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Bypass290.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/src.zip!/java/rmi/server/RemoteObjectInvocationHandler.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/src.zip!/java/rmi/server/UnicastRemoteObject.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/src.zip!/java/rmi/server/RemoteObjectInvocationHandler.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/server/UnicastRef.class</url>
+          <line>266</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/Java/jdk1.8.0_111/111_b14/111_b14/src/share/classes/sun/rmi/transport/StreamRemoteCall.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/server/UnicastRef.class</url>
+          <line>267</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/rmi/transport/StreamRemoteCall.class</url>
+          <line>172</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>94</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>99</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/rmi/transport/StreamRemoteCall.class</url>
+          <line>190</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/src.zip!/java/rmi/server/RemoteObjectInvocationHandler.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>97</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>95</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>100</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>65</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>67</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>70</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/src.zip!/java/rmi/server/UnicastRemoteObject.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl_Skel.class</url>
+          <line>64</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/src.zip!/java/rmi/server/UnicastRemoteObject.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_231/src.zip!/java/rmi/server/UnicastRemoteObject.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RMI-Client/src/main/java/com/lala/Bypass290.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class</url>
+          <line>119</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/src.zip!/java/rmi/server/RemoteObjectInvocationHandler.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_241/src.zip!/java/rmi/server/RemoteObjectInvocationHandler.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="obj" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
