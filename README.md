@@ -7,4 +7,4 @@ RMI反序列化学习环境，细节请参考博客[RMI-反序列化-深入-上]
 
 其他功能可以从源码运行。
 
-![总结图](http://ww1.sinaimg.cn/large/006iKNp3ly1gg16pu5w4wj31ut184wra.jpg)
+![总结图.png](http://ww1.sinaimg.cn/large/006iKNp3ly1gg378mdwp2j31ut18015j.jpg)
