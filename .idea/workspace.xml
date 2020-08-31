@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07022426-aa7f-4238-8036-3803f965c61a" name="Default Changelist" comment="" />
+    <list default="true" id="07022426-aa7f-4238-8036-3803f965c61a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI-Bypass290/src/main/java/BypassJEP290_Lookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/RMI-Bypass290/src/main/java/BypassJEP290_Lookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI-Bypass290/src/main/java/payloads/thread/LookupPayloadInjectingProxyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/RMI-Bypass290/src/main/java/payloads/thread/LookupPayloadInjectingProxyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMI-Bypass290/target/classes/BypassJEP290_Lookup.class" beforeDir="false" afterPath="$PROJECT_DIR$/RMI-Bypass290/target/classes/BypassJEP290_Lookup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RMI_Bypass290_jar/RMI-Bypass290.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RMI_Bypass290_jar/RMI-Bypass290.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -35,12 +45,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1YvaI6FjpFerIpa4Nh4LaseApBT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/Java/jdk1.8.0_231/jre/lib/rt.jar!/java/rmi/server/RemoteObjectInvocationHandler.class" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -79,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bypass290">
+  <component name="RunManager" selected="Application.BypassJEP290_Lookup">
     <configuration name="Bypass290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lala.Bypass290" />
       <module name="RMIClient" />
@@ -113,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JRMPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lala.JRMPClient" />
-      <module name="RMIClient" />
+    <configuration name="LookupPayloadInjectingProxyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="payloads.thread.LookupPayloadInjectingProxyThread" />
+      <module name="RMI-Bypass290" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lala.*" />
+          <option name="PATTERN" value="payloads.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,16 +154,16 @@
       <item itemvalue="Application.ServerAndRegister" />
       <item itemvalue="Application.Bypass290" />
       <item itemvalue="Application.BypassJEP290_Lookup" />
-      <item itemvalue="Application.JRMPClient" />
       <item itemvalue="Application.Bypass290_proxy" />
+      <item itemvalue="Application.LookupPayloadInjectingProxyThread" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerAndRegister" />
+        <item itemvalue="Application.BypassJEP290_Lookup" />
+        <item itemvalue="Application.LookupPayloadInjectingProxyThread" />
         <item itemvalue="Application.Bypass290" />
         <item itemvalue="Application.Bypass290_proxy" />
-        <item itemvalue="Application.JRMPClient" />
-        <item itemvalue="Application.BypassJEP290_Lookup" />
       </list>
     </recent_temporary>
   </component>
@@ -195,12 +206,24 @@
       <workItem from="1591586192888" duration="15007000" />
       <workItem from="1592181956016" duration="10730000" />
       <workItem from="1592282760548" duration="54000" />
-      <workItem from="1592282859092" duration="35078000" />
+      <workItem from="1592282859092" duration="35705000" />
+      <workItem from="1598854381310" duration="4146000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

